@@ -1,0 +1,71 @@
+.transition-button{
+    background-color: blue;
+    transition: all 0.5s;
+}
+.transition-button:hover{
+    background-color: green;
+}
+.transition-div{
+    width: 100px;
+    transition: all 1s;
+    background-color: rgb(255, 94, 94);
+}
+.transition-div:hover{
+    width: 200px;
+}
+.transition-text{
+    background-color: rgb(192, 125, 255);
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.transition-text:hover{
+    font-size: 24px;
+}
+.transition-image{
+transition: all 0.8s;
+opacity: 1;
+}
+.transition-image:hover{
+opacity: 0.5;
+} 
+.scale-div{
+    background-color: rgb(210, 152, 152);
+    transition: all;
+}
+.scale-div:hover{
+    scale: 1.5;
+}
+.scale-image{
+    transition: all;
+}
+.scale-image:hover{
+    scale: 0.75;
+}
+.translate-button{
+background-color: coral;
+transition:all;
+}
+.translate-button:hover{
+    transform:translate(50px,20px);
+}
+.translate-div{
+    background-color: rgb(119, 137, 255);
+    transition: all;
+}
+.translate-div:hover{
+    transform:translate(-100px,0px) ;
+}
+.skew-heading{
+  background-color: rgb(232, 121, 192);
+  transition: all;
+}
+.skew-heading:hover{
+  transform: skew(20deg,0deg);
+}
+.skew-paragraph{
+    background-color: rgb(61, 77, 150);
+    transition: all;
+  }
+.skew-paragraph:hover{
+    transform: skew(0deg,15deg);
+  }
